@@ -1,0 +1,24 @@
+{
+  "name": "layout_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.6.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-watch": "^4.3.6",
+    "postcss-bem": "^0.4.1",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.2",
+    "postcss-include": "^0.3.1",
+    "postcss-mixins": "^4.0.1",
+    "postcss-nested": "^1.0.0"
+  }
+}

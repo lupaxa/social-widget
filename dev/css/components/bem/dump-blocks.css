@@ -1,0 +1,46 @@
+@component btn-type-1{
+    width: 4rem;
+    height: 3.2rem;
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0.25) 10%, rgba(255, 255, 255, 0.25) 100%);
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.6);
+    background-image: url("../img/icon/Message.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    &:hover{
+        background-image: url("../img/icon/Message-hover.png");
+    }
+}
+@component btn-type-2{
+    height: 100%;
+    padding: 0 1rem;
+    text-transform: capitalize;
+    /*background-color: #4d7a93;*/
+    /*background-image: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.12) 100%);*/
+    border-radius: 2px;
+    /*box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.35), inset 0 0 0 1px rgba(0, 0, 0, 0.5);*/
+    cursor: pointer;
+    &:hover{
+             /*background-image: url("../img/icon/Message-hover.png");*/
+     }
+    @modifier plus{
+         background-image: url("../img/icon/Plus.png");
+            background-repeat: no-repeat;
+            background-position: center;
+     }
+}
+
+
+@component btn-share{
+    width: 2.9rem;
+    height: 2.3rem;
+    background-image: url("../img/icon/Share.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover{
+    background-image: url("../img/icon/Share-hover.png");
+    }
+}

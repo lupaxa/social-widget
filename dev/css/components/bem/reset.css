@@ -1,0 +1,67 @@
+*:after,
+*:before {
+    box-sizing:border-box;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a:focus {
+    outline:0;
+}
+
+a:hover,
+a:active {
+    outline:0;
+}
+
+input:focus {
+    outline:0;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    clear: both;
+    display: table;
+}
